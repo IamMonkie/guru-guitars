@@ -1,12 +1,26 @@
 import React from "react";
-// import "./App.css";
+import "./App.css";
+import { Container, Row, Col } from "reactstrap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>App.js test success</p>
-      </header>
+      <Container>
+        <Row>
+          <Col>
+            <header className="App-header">
+              <p>Header Text Test</p>
+            </header>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <body>
+              <h3>Body Text Test</h3>
+            </body>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
